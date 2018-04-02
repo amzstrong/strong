@@ -1,0 +1,28 @@
+{
+  "name": "laoyuegou/sanbai-lolspider",
+  "require": {
+    "php": ">=5.6.0",
+    "monolog/monolog": "1.0.*",
+    "workerman/workerman": "3.4.5",
+    "catfan/medoo": "^1.5",
+    "sinergi/config": "^0.5.2"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Strong\\Common\\": "common/",
+      "Strong\\Core\\": "core/"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+    ],
+    "post-install-cmd": [
+    ]
+  }
+}
